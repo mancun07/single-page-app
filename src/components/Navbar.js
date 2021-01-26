@@ -23,7 +23,7 @@ const Navbar = () => {
                     <nav className="navbar__nav">
                         <div className="navbar__nav__menu">
                             <ul>
-                                <li><Link to={'/'}>ГЛАВНАЯ</Link></li>
+                                <li><Link to={'/single-page-app'}>ГЛАВНАЯ</Link></li>
                                 <li><Link to={'/news'}>НОВОСТИ</Link></li>
                                 <li><Link to={'/photos'}>ФОТО</Link></li>
                                 <li><Link to={'/video'}>ВИДЕО</Link></li>
@@ -43,7 +43,7 @@ const Navbar = () => {
     
         <div className="sidenav" id="mobile-demo">
             <ul className="sidenav__nav__menu">
-                <li><Link to={'/'} onClick={toggleMenu}>ГЛАВНАЯ</Link></li>
+                <li><Link to={'/single-page-app'} onClick={toggleMenu}>ГЛАВНАЯ</Link></li>
                 <li><Link to={'/news'} onClick={toggleMenu}>НОВОСТИ</Link></li>
                 <li><Link to={'/photos'} onClick={toggleMenu}>ФОТО</Link></li>
                 <li><Link to={'/video'} onClick={toggleMenu}>ВИДЕО</Link></li>
