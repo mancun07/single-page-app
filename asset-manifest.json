@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/single-page-app/static/css/main.975d9be8.chunk.css",
-    "main.js": "/single-page-app/static/js/main.b41d9a85.chunk.js",
-    "main.js.map": "/single-page-app/static/js/main.b41d9a85.chunk.js.map",
+    "main.js": "/single-page-app/static/js/main.de4cde2e.chunk.js",
+    "main.js.map": "/single-page-app/static/js/main.de4cde2e.chunk.js.map",
     "runtime-main.js": "/single-page-app/static/js/runtime-main.396972a9.js",
     "runtime-main.js.map": "/single-page-app/static/js/runtime-main.396972a9.js.map",
     "static/css/2.ff8d8ad2.chunk.css": "/single-page-app/static/css/2.ff8d8ad2.chunk.css",
@@ -25,6 +25,8 @@
     "static/media/concert1.fa6796dc.jpg": "/single-page-app/static/media/concert1.fa6796dc.jpg",
     "static/media/concert2.05534f6f.jpg": "/single-page-app/static/media/concert2.05534f6f.jpg",
     "static/media/concert3.a2da20db.jpg": "/single-page-app/static/media/concert3.a2da20db.jpg",
+    "static/media/concert4.89b50d70.jpg": "/single-page-app/static/media/concert4.89b50d70.jpg",
+    "static/media/concert5.54e52b88.jpg": "/single-page-app/static/media/concert5.54e52b88.jpg",
     "static/media/dima.3d500190.jpg": "/single-page-app/static/media/dima.3d500190.jpg",
     "static/media/App.scss": "/single-page-app/static/media/main.83dee1e1.jpg",
     "static/media/maxim.422ec087.jpg": "/single-page-app/static/media/maxim.422ec087.jpg",
@@ -40,6 +42,6 @@
     "static/css/2.ff8d8ad2.chunk.css",
     "static/js/2.c0c74d2b.chunk.js",
     "static/css/main.975d9be8.chunk.css",
-    "static/js/main.b41d9a85.chunk.js"
+    "static/js/main.de4cde2e.chunk.js"
   ]
 }
