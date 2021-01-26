@@ -22,7 +22,7 @@ function App() {
         <Router>
           <Navbar/>
           <Switch>
-              <Route exact path={'/'} component={About} />
+              <Route exact path={'/single-page-app'} component={About} />
               <Route exact path={'/news'} component={News} />
               <Route path={'/photos'} component={Photos} />
               <Route path={'/video'} component={Video} />
