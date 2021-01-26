@@ -10,7 +10,7 @@ const NewsItem = ({el}) => {
             <div className="news-item__date">{el.date}</div>
             <h2>{el.title}</h2>
             <p>{el.desc}</p>
-            <Link to={`/news/${el.id}`} className="btn btn-primary">Подробнее</Link>
+            <Link to={`/news/${el.id}`} className="btn btn-primary">Читать далее</Link>
         </div>
     )
 }
