@@ -27,6 +27,7 @@ const Navbar = () => {
                                 <li><Link to={'/news'}>НОВОСТИ</Link></li>
                                 <li><Link to={'/photos'}>ФОТО</Link></li>
                                 <li><Link to={'/video'}>ВИДЕО</Link></li>
+                                <li><Link to={'/audio'}>АУДИО</Link></li>
                             </ul>
                         </div>
                         <div className="navbar__nav__socials">
