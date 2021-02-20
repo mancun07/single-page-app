@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/single-page-app/static/css/main.975d9be8.chunk.css",
-    "main.js": "/single-page-app/static/js/main.de4cde2e.chunk.js",
-    "main.js.map": "/single-page-app/static/js/main.de4cde2e.chunk.js.map",
+    "main.css": "/single-page-app/static/css/main.3ca0aac7.chunk.css",
+    "main.js": "/single-page-app/static/js/main.4b01a18c.chunk.js",
+    "main.js.map": "/single-page-app/static/js/main.4b01a18c.chunk.js.map",
     "runtime-main.js": "/single-page-app/static/js/runtime-main.396972a9.js",
     "runtime-main.js.map": "/single-page-app/static/js/runtime-main.396972a9.js.map",
     "static/css/2.ff8d8ad2.chunk.css": "/single-page-app/static/css/2.ff8d8ad2.chunk.css",
-    "static/js/2.c0c74d2b.chunk.js": "/single-page-app/static/js/2.c0c74d2b.chunk.js",
-    "static/js/2.c0c74d2b.chunk.js.map": "/single-page-app/static/js/2.c0c74d2b.chunk.js.map",
+    "static/js/2.073cbd42.chunk.js": "/single-page-app/static/js/2.073cbd42.chunk.js",
+    "static/js/2.073cbd42.chunk.js.map": "/single-page-app/static/js/2.073cbd42.chunk.js.map",
     "static/js/3.babfce1b.chunk.js": "/single-page-app/static/js/3.babfce1b.chunk.js",
     "static/js/3.babfce1b.chunk.js.map": "/single-page-app/static/js/3.babfce1b.chunk.js.map",
     "index.html": "/single-page-app/index.html",
     "static/css/2.ff8d8ad2.chunk.css.map": "/single-page-app/static/css/2.ff8d8ad2.chunk.css.map",
-    "static/css/main.975d9be8.chunk.css.map": "/single-page-app/static/css/main.975d9be8.chunk.css.map",
-    "static/js/2.c0c74d2b.chunk.js.LICENSE.txt": "/single-page-app/static/js/2.c0c74d2b.chunk.js.LICENSE.txt",
+    "static/css/main.3ca0aac7.chunk.css.map": "/single-page-app/static/css/main.3ca0aac7.chunk.css.map",
+    "static/js/2.073cbd42.chunk.js.LICENSE.txt": "/single-page-app/static/js/2.073cbd42.chunk.js.LICENSE.txt",
+    "static/media/Annie.38896203.mp3": "/single-page-app/static/media/Annie.38896203.mp3",
+    "static/media/Annie.b441d7cc.jpg": "/single-page-app/static/media/Annie.b441d7cc.jpg",
+    "static/media/It_was_you.72ae3d82.mp3": "/single-page-app/static/media/It_was_you.72ae3d82.mp3",
+    "static/media/It_was_you.de73004d.jpg": "/single-page-app/static/media/It_was_you.de73004d.jpg",
+    "static/media/Walking_in_dark.06c3c988.mp3": "/single-page-app/static/media/Walking_in_dark.06c3c988.mp3",
+    "static/media/Walking_in_dark.51f2447f.jpg": "/single-page-app/static/media/Walking_in_dark.51f2447f.jpg",
     "static/media/about1.56da72d5.jpg": "/single-page-app/static/media/about1.56da72d5.jpg",
     "static/media/about2.90829d5c.jpg": "/single-page-app/static/media/about2.90829d5c.jpg",
     "static/media/about3.abebccb4.jpg": "/single-page-app/static/media/about3.abebccb4.jpg",
@@ -40,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.396972a9.js",
     "static/css/2.ff8d8ad2.chunk.css",
-    "static/js/2.c0c74d2b.chunk.js",
-    "static/css/main.975d9be8.chunk.css",
-    "static/js/main.de4cde2e.chunk.js"
+    "static/js/2.073cbd42.chunk.js",
+    "static/css/main.3ca0aac7.chunk.css",
+    "static/js/main.4b01a18c.chunk.js"
   ]
 }
