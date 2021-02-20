@@ -1,15 +1,19 @@
 import React, {useContext, useEffect} from 'react'
 import MySwiper from './MySwiper'
 import PhotosContext from '../context/photos/PhotosContext'
+import NavbarContext from '../context/navbar/NavbarContext'
 import MemberItem from './MemberItem'
 
 
 const About = () => {
     const {members} = useContext(PhotosContext)
+    const {setChangeColor} = useContext(NavbarContext)
      useEffect(() => {
-        document.querySelector('body').classList.remove('news-page');
-        document.querySelector('.navbar-wrapper').classList.add('navbar-wrapper__about-us');
+       setChangeColor(true);
 
+      return () => {
+            setChangeColor(false);
+      }
     }, [])
     return (
         <div>

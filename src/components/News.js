@@ -9,8 +9,10 @@ const News = () => {
 
      useEffect(() => {
          document.querySelector('body').classList.add('news-page');
-        document.querySelector('.navbar-wrapper').classList.remove('navbar-wrapper__about-us');
 
+        return () => {
+        document.querySelector('body').classList.remove('news-page'); 
+        }
     }, [])
 
     return (

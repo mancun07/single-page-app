@@ -4,10 +4,10 @@ import PhotoItem from './PhotoItem'
 
 const Photos = () => {
     const {photos} = useContext(PhotosContext)
-         useEffect(() => {
-        document.querySelector('body').classList.remove('news-page');
-        document.querySelector('.navbar-wrapper').classList.remove('navbar-wrapper__about-us');
-    }, [])
+    //      useEffect(() => {
+    //     document.querySelector('body').classList.remove('news-page');
+
+    // }, [])
     return (
 <main className="photo-page__main">
     <div className="container">

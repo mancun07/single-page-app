@@ -1,4 +1,5 @@
 import React, {useEffect, useContext} from 'react'
+import {Link} from 'react-router-dom'
 import NewsContext from '../context/news/NewsContext'
 
 const SingleNews = ({match}) => {
@@ -12,7 +13,9 @@ const SingleNews = ({match}) => {
         document.querySelector('body').classList.remove('news-page');
     }, [])
     return (
+        <>
         <div className="news-item container text-center details-item">
+            <Link to={'/news'} className="btn btn-primary inline-block m-1 p-1">Вернуться к списку новостей</Link>
             <div className="news-item__image">
                 <img src={newsItem.img} alt="one of the news"/>
             </div>
@@ -20,6 +23,8 @@ const SingleNews = ({match}) => {
             <h2>{newsItem.title}</h2>
             <p>{newsItem.desc}</p>
         </div>
+        </>
+
     )
 }
 

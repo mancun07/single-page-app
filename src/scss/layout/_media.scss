@@ -33,6 +33,11 @@
   .news-item {
     flex-basis: 50%;
   }
+
+    .news-wrapper {
+    opacity: 1;
+    position: relative;
+  }
 }
 
 @media (max-width: 587px) {
@@ -107,8 +112,5 @@
     line-height: 1.6;
   }
 
-  .news-wrapper {
-    opacity: 1;
-    position: relative;
-  }
+
 }

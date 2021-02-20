@@ -4,10 +4,10 @@ import VideoItem from './VideoItem'
 
 const Video = () => {
     const {video} = useContext(VideoContext)
-             useEffect(() => {
-             document.querySelector('body').classList.remove('news-page');
-             document.querySelector('.navbar-wrapper').classList.remove('navbar-wrapper__about-us');
-    }, [])
+    //          useEffect(() => {
+    //          document.querySelector('body').classList.remove('news-page');
+
+    // }, [])
     return (
             <main className="video-page__main">
     <div className="container">

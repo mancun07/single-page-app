@@ -1,21 +1,33 @@
-import React from 'react'
+import React, {useContext, useEffect, useRef} from 'react'
 import {Link} from 'react-router-dom'
+import NavbarContext from '../context/navbar/NavbarContext'
 
 const Navbar = () => {
+    const {changeColor} = useContext(NavbarContext)
+    const sidenav = useRef(null);
 
+const handleSideMenu = () => {
+      if (window.innerWidth > 587) {
+           sidenav.current.classList.remove('sidenav-is-active');
+    }
+}
+
+useEffect(() => {
+    window.addEventListener('resize', handleSideMenu);
+
+    return () => {
+    window.removeEventListener('resize', handleSideMenu);
+    } 
+}, [])
    
     const toggleMenu = () => {
-        const sidenav = document.querySelector('.sidenav');
-        sidenav.classList.toggle('sidenav-is-active');
-        // if (document.body.offsetWidth > 587) {
-        //             sidenav.classList.remove('sidenav-is-active');
-        //         }
+        sidenav.current.classList.toggle('sidenav-is-active');
     }
 
 
     return (
         <header>
-        <div className="navbar-wrapper">
+        <div className={`navbar-wrapper ${changeColor === true ? 'navbar-wrapper__about-us' : false}`}>
             <div className="container">
                 <div className="navbar">
                     <div className="sidenav-trigger" onClick={toggleMenu}></div>
@@ -42,12 +54,13 @@ const Navbar = () => {
             </div>
         </div>
     
-        <div className="sidenav" id="mobile-demo">
+        <div ref={sidenav} className="sidenav" id="mobile-demo">
             <ul className="sidenav__nav__menu">
                 <li><Link to={'/single-page-app'} onClick={toggleMenu}>ГЛАВНАЯ</Link></li>
                 <li><Link to={'/news'} onClick={toggleMenu}>НОВОСТИ</Link></li>
                 <li><Link to={'/photos'} onClick={toggleMenu}>ФОТО</Link></li>
                 <li><Link to={'/video'} onClick={toggleMenu}>ВИДЕО</Link></li>
+                <li><Link to={'/audio'} onClick={toggleMenu}>АУДИО</Link></li>
             </ul>
      
         <ul className="sidenav__nav__socials">
