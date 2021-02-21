@@ -10,7 +10,9 @@ const NewsItem = ({el}) => {
             <div className="news-item__date">{el.date}</div>
             <h2>{el.title}</h2>
             <p>{el.desc}</p>
-            <Link to={`/single-page-app/news/${el.id}`} className="btn btn-primary">Читать далее</Link>
+            <Link to={`/single-page-app/news/${el.id}`} className="btn btn-primary"
+            style={{boxShadow: "0px 0px 8px rgb(255, 255, 255)"}}
+            >Читать далее</Link>
         </div>
     )
 }
