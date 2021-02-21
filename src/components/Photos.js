@@ -1,6 +1,7 @@
 import React, {useContext, useEffect} from 'react'
 import PhotosContext from '../context/photos/PhotosContext'
 import PhotoItem from './PhotoItem'
+import {motion} from 'framer-motion'
 
 const Photos = () => {
     const {photos} = useContext(PhotosContext)
@@ -12,12 +13,16 @@ const Photos = () => {
 <main className="photo-page__main">
     <div className="container">
         <div className="photos-wrapper">
-            <div className="photos">
+            <motion.div className="photos"
+            initial={{y: '-100vh'}}
+            animate={{y: 0}}
+            transition={{delay: 0.5, type: 'spring', stiffness: 300}}
+            >
             {photos.map(photo => {
                 return <PhotoItem key={photo.id} photo={photo} />
             })}
                
-            </div>
+            </motion.div>
         </div>  
     </div>
 </main>
