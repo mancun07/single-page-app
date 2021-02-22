@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/single-page-app/static/css/main.aa80cfed.chunk.css",
+    "main.css": "/single-page-app/static/css/main.fa7565bb.chunk.css",
     "main.js": "/single-page-app/static/js/main.7f7416d3.chunk.js",
     "main.js.map": "/single-page-app/static/js/main.7f7416d3.chunk.js.map",
     "runtime-main.js": "/single-page-app/static/js/runtime-main.456c46c3.js",
@@ -12,7 +12,7 @@
     "static/js/3.878498ef.chunk.js.map": "/single-page-app/static/js/3.878498ef.chunk.js.map",
     "index.html": "/single-page-app/index.html",
     "static/css/2.ff8d8ad2.chunk.css.map": "/single-page-app/static/css/2.ff8d8ad2.chunk.css.map",
-    "static/css/main.aa80cfed.chunk.css.map": "/single-page-app/static/css/main.aa80cfed.chunk.css.map",
+    "static/css/main.fa7565bb.chunk.css.map": "/single-page-app/static/css/main.fa7565bb.chunk.css.map",
     "static/js/2.67dc6cff.chunk.js.LICENSE.txt": "/single-page-app/static/js/2.67dc6cff.chunk.js.LICENSE.txt",
     "static/media/Annie.2cf3beeb.mp3": "/single-page-app/static/media/Annie.2cf3beeb.mp3",
     "static/media/Annie.b441d7cc.jpg": "/single-page-app/static/media/Annie.b441d7cc.jpg",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.456c46c3.js",
     "static/css/2.ff8d8ad2.chunk.css",
     "static/js/2.67dc6cff.chunk.js",
-    "static/css/main.aa80cfed.chunk.css",
+    "static/css/main.fa7565bb.chunk.css",
     "static/js/main.7f7416d3.chunk.js"
   ]
 }
